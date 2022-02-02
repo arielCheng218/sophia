@@ -1,0 +1,25 @@
+#content {
+  margin: 0;
+  overflow: hidden;
+  transform: translateY(10%);
+  text-align: center;
+}
+
+#blob-image {
+  transition: 200ms;
+  width: 50vh;
+  height: 50vh;
+  filter: contrast(125%) grayscale(100%);
+}
+
+#blob-image:hover {
+  cursor: pointer;
+  transition: 200ms;
+  filter: contrast(100%) grayscale(0%);
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
